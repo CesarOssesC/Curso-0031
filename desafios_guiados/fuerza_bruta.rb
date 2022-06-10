@@ -1,4 +1,4 @@
-pass = gets.chomp
+pass = ARGV[0]
 texto = "a"
 i = 1
 while texto != pass
