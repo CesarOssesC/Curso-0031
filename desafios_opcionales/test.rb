@@ -1,16 +1,3 @@
-flores = [
-    { 
-        "nombre" => "hortencia",
-        "clasificación" => "exterior",
-        "color" => "multicolor"
-    },
-    {
-        "nombre" => "rosa",
-        "clasificación" => "exterior",
-        "color" => "roja"
-    }
-]
+a = 1
 
-flores.each do |f|
-    puts f["nombre"]
-end
+puts a.to_f.round(3)
